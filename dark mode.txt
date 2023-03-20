@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Changa:wght@200;300;400;500&family=Epilogue:wght@500;700&family=Exo+2:wght@200;300;400;500;600&family=Indie+Flower&family=Josefin+Sans:wght@400;700&family=Manrope:wght@600;800&family=Mulish:wght@300;400;500;600;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Permanent+Marker&family=Poppins:wght@200;400;600&family=Quicksand:wght@300;400;500;600&family=Space+Mono:wght@700&family=Ubuntu+Condensed&family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#1a1a1a, #222222);
+  height: 150vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: mulish;
+  color: #ededed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  width: 90%;
+  box-shadow: 0 3px 16px 0 #1a1a1a;
+  padding: 0 10rem;
+}
+li {
+  display: flex;
+}
+
+/* HEADER DESIGN */
+header {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  gap: 5rem;
+}
+.introduction {
+  width: 30%;
+}
+.introduction-paragraph {
+  padding-left: 1rem;
+}
+
+.fa-linkedin-in {
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+/* PROJECTS DESIGN */
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  gap: 3rem;
+}
+
+.project-box {
+  background-color: #48484852;
+  width: 350px;
+  height: 500px;
+  box-shadow: 0 8px 16px 0 #1a1a1a;
+  border-radius: 25px;
+}
+
+/* SKILL DESIGN */
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  border-top: solid #484848 0.3rem;
+  border-bottom: solid #484848 0.3rem;
+  border-left: solid #484848 0.3rem;
+  border-radius: 25px;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+}
+
+.about-me {
+  width: 25%;
+}
+
+.skill-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 10rem;
+  padding: 0 1rem 0;
+  background-color: #484848;
+  gap: 1rem;
+  border-radius: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  font-size: 30px;
+}
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #484848;
+  border-radius: 25px;
+  height: 3rem;
+  width: 10rem;
+  border: none;
+}
+
+/* CIRCLES */
+
+.circle {
+  position: absolute;
+  z-index: -1;
+}
+
+.circle1 {
+  top: 0%;
+  left: 0;
+  background-color: #1a1a1a;
+  height: 500px;
+  width: 500px;
+  border-radius: 0 0 100% 0;
+  border-right: #484848 1rem solid;
+  box-shadow: 0 4px 16px 0 #1a1a1a;
+}

@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Changa:wght@200;300;400;500&family=Epilogue:wght@500;700&family=Exo+2:wght@200;300;400;500;600&family=Indie+Flower&family=Josefin+Sans:wght@400;700&family=Manrope:wght@600;800&family=Mulish:wght@300;400;500;600;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Permanent+Marker&family=Poppins:wght@200;400;600&family=Quicksand:wght@300;400;500;600&family=Space+Mono:wght@700&family=Ubuntu+Condensed&family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+body {
+  display: inline-flexbox;
+  flex-direction: column;
+  align-items: center;
+  background-color: #22252a;
+  /* height: 150vh; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: mulish;
+  color: #ededed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+}
+
+#name {
+  position: relative;
+  color: #39d670;
+  top: 0;
+  transition: top 0.4s ease-in;
+  -webkit-transition: 0.4s;
+}
+#name:hover {
+  top: -10px;
+  color: #31b35e;
+  transition: top 0.4s ease-in;
+  -webkit-transition: 0.4s;
+}
+
+/* HEADER DESIGN */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+  gap: 10rem;
+}
+.introduction {
+  width: 35rem;
+}
+.introduction-paragraph {
+  padding-left: 1rem;
+}
+
+.fa-linkedin-in {
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.career {
+  padding-left: 1rem;
+}
+
+.animation {
+  height: 375px;
+  width: 300px;
+}
+
+/* PROJECTS DESIGN */
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 1rem;
+  gap: 3rem;
+}
+
+.project-box {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #1c1e22;
+  width: 350px;
+  height: 550px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.329);
+  border-radius: 25px;
+  top: 0;
+  transition: top ease-in 0.5s;
+}
+.project-box:hover {
+  background-color: #131417;
+  top: -20px;
+  -webkit-transition: 0.4s;
+}
+.description {
+  padding: 1rem;
+}
+.fa-solid {
+  padding-left: 0.5rem;
+}
+.ad {
+  background-color: white;
+  width: 275px;
+  height: 275px;
+  border-radius: 100%;
+}
+
+img {
+  object-fit: cover;
+  width: 90%;
+  height: 60%;
+  border: solid 3px #3e4653;
+  border-radius: 15px;
+}
+
+/* SKILL DESIGN */
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 10rem;
+  margin-bottom: 5rem;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 14rem;
+  border-top: solid #0606061a 0.3rem;
+  border-bottom: solid #0606061a 0.3rem;
+  border-left: solid #0606061a 0.3rem;
+  border-radius: 25px;
+  padding: 1.5rem 1rem;
+  gap: 1rem;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+}
+
+.skill-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 4rem;
+  width: 10rem;
+  padding: 0 1rem 0;
+  background-color: #0606061a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.329);
+  gap: 1rem;
+  right: 0;
+  border-radius: 10px;
+  transition: top ease 0.5s;
+  -webkit-transition: 0.4s;
+}
+.skill-box:hover {
+  background-color: #06060638;
+  right: -25px;
+  -webkit-transition: 0.4s;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.icon {
+  font-size: 30px;
+}
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #39d670;
+  border-radius: 25px;
+  height: 3rem;
+  width: 10rem;
+  border: none;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: #6cc98c;
+  transition: 0.4s;
+}
+
+/* CIRCLES */
+
+.circle-container {
+  position: relative;
+}
+.circle {
+  z-index: -1;
+  position: absolute;
+}
+
+.circle1 {
+  top: 0%;
+  left: 0;
+  background-color: #06060631;
+  height: 500px;
+  width: 500px;
+  border-radius: 0 0 100% 0;
+}
+.circle2 {
+  background-color: #06060688;
+  bottom: 0;
+  right: 0;
+  height: 450px;
+  width: 450px;
+  border-radius: 100% 0 0 0;
+}
+.circle3 {
+  background-color: #39d670;
+  top: 30%;
+  right: -250px;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
+.circle4 {
+  background-color: rgba(255, 255, 255, 0.13);
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  border-radius: 0 100% 0 0;
+}
+.circle5 {
+  background-color: #0606065d;
+  top: 90%;
+  left: 13%;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.circle6 {
+  background-color: #1c1f23;
+  height: 150px;
+  width: 150px;
+  top: 5%;
+  right: 7%;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1142px) {
+  header {
+    gap: 1rem;
+  }
+
+  .box-container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .introduction {
+    width: 350px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+
+  .animation {
+    display: none;
+  }
+
+  .box-container {
+    flex-direction: column;
+  }
+
+  .skills-section {
+    flex-direction: column;
+  }
+
+  .skills-section {
+    gap: 3rem;
+  }
+
+  .skill-container {
+    width: 345px;
+    border: none;
+  }
+  .about-me {
+    padding: 0 0.5rem;
+    width: 350px;
+    font-size: 14px;
+  }
+
+  button {
+    width: 8rem;
+  }
+
+  .circle4 {
+    display: none;
+  }
+}
