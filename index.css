@@ -12,7 +12,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: mulish;
+  font-family: mulish, Sans-serif;
   color: #ededed;
 }
 
@@ -90,15 +90,17 @@ header {
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-  border: solid;
 }
 
 .box-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 1rem;
   gap: 3rem;
+  width: 100%;
+  height: 40rem;
 }
 
 .project-box {
@@ -317,6 +319,9 @@ button:hover {
 
   .box-container {
     flex-direction: column;
+    justify-content: first baseline;
+    width: auto;
+    height: auto;
   }
 
   .skills-section {
